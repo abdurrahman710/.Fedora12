@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    
+        <!--my css-->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Fedora</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Perfumes</a></p>
+            <p class="navbar-link"><a href="contect.html">Contact</a></p>
+        </div>
+            <div class="navbar-menu-toggle" onclick="shownvbar()" >
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!---sidenavbar-->
+    <div class="side-navbar">
+        <P style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </P>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Perfumes</a></p>
+            <p class="side-navbar-link"><a href="contect.html">Contact</a></p>
+        </div>
+    </div>
+     <!-- Product Item -->
+      <div  id="product">
+        
+     <div class="product-section" id="">
+        <form class="product-search" id="Search">
+            <input type="text" id="Search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <!---->
+     <div class="cart-item" id="cart-item">
+        <img src="pro1.png" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Versace Eros</h2>
+          <p class="product-price">Rs.2400.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity0" value="1" min="1" class="quantity-input" >
+          </div>
+          <p>Total: Rs.<span id="total-price0">Rs.2400.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+
+
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro2.jpg" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Montblanc Explorer</h2>
+          <p class="product-price">Rs.1800.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity1" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price1">Rs.1800.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro3.png" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Afnan 9 PM</h2>
+          <p class="product-price">Rs.2000.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity2" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price2">Rs.2000.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro4.png" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Giorgio Black Special Edition</h2>
+          <p class="product-price">Rs.1950.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity3" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price3">Rs.1950.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro5 (1).webp" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Acqua di Gio(Armani)</h2>
+          <p class="product-price">Rs.2200.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity4" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price4">Rs.2200.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro6.webp" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Azzaro(50ml)</h2>
+          <p class="product-price">Rs.800.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity5" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price5">Rs.800.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro7.jpg" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Blue De Chanel</h2>
+          <p class="product-price">Rs.1350.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity6" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price6">Rs.1350.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro8.jpg" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Sauvage(DIOR)</h2>
+          <p class="product-price">Rs.1170.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity7" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price7">Rs.1170.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro9.avif" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Essence Pour Homme(GUCCI)</h2>
+          <p class="product-price">Rs.1999.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity8" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price8">Rs.1999.00</span></p>
+        </div>
+      </div>
+      
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+    
+
+    <!-- Product Item -->
+    <div class="cart-item"  id="cart-item">
+        <img src="pro10.avif" alt="Product" class="product-image"  width="200px" height="200px">
+        <div class="product-details">
+          <h2>Homme(JOOP!)</h2>
+          <p class="product-price">Rs.1150.00</p>
+          
+          <!-- Quantity and total price -->
+          <div class="quantity">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity9" value="1" min="1" class="quantity-input">
+          </div>
+          <p>Total: Rs.<span id="total-price9">Rs.1150.00</span></p>
+        </div>
+      </div>
+
+      <!-- Buy Button -->
+      <button class="buy-button"> <a href="form.html" > Shop Now <i class="fa-solid fa-arrow-right"></i></a></button>
+    </div>
+
+</div>
+</div>  
+
+    
+   
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext"> Fedora</h2>
+              <p>Copyright © 2024 Fedora Perfume • Solution by Triple D Vision</p>  
+              <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffff;"></i>
+              </div>
+            </div>
+
+        </div>
+        <p>@2024fedora.com</p>
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
